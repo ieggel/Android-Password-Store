@@ -3,8 +3,8 @@ package dev.msfjarvis.aps.ssh.generator
 import android.os.Build
 import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyProperties
-import dev.msfjarvis.aps.ssh.generator.SSHKeyGenerator.Companion.KEYSTORE_ALIAS
-import dev.msfjarvis.aps.ssh.generator.SSHKeyGenerator.Companion.PROVIDER_ANDROID_KEY_STORE
+import dev.msfjarvis.aps.ssh.utils.Constants.KEYSTORE_ALIAS
+import dev.msfjarvis.aps.ssh.utils.Constants.PROVIDER_ANDROID_KEY_STORE
 import java.security.KeyPair
 import java.security.KeyPairGenerator
 
